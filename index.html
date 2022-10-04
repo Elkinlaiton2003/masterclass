@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cuatrimotos</title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script type="text/javascript" src="misFunciones.js"></script>
+<body>
+
+    <h1>Clientes</h1>
+
+    id de cliente : <input type="number" id="idCliente"><br>
+    nombre de cliente : <input type="text" id="nombreCliente"><br>
+    correo de cliente : <input type="text" id="mailCliente"><br>
+    edad de cliente : <input type="number" id="edadCliente"><br>
+
+    <button onclick="guardarCliente()">GUARDAR</button>
+    <button onclick="editarCliente()">ACTUALIZAR</button>
+    <button onclick="leerClientes()">CONSULTAR</button>
+    
+    <div id="listaClientes">
+
+    </div>
+    
+</body>
+
+</html>
